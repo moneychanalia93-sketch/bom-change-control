@@ -152,10 +152,6 @@ How the numbers are defined:
 
 `--csv` writes the same numbers as rows of `section,key,detail,value`.
 
-## Project layout
-
-See [docs/PLM_PROCESS.md](docs/PLM_PROCESS.md) for a plain-English explanation of PLM, BOMs, change requests and release control.
-
 ## Sample data
 
 `data/sample_bom.csv` has 60 parts and 69 BOM lines in three levels (product, assembly, component) for two fictional products, plus a Draft cable-arm assembly and an Obsolete legacy fan tray. It contains **exactly two planted defects**; every other check passes on it:
