@@ -1,0 +1,130 @@
+record,part_number,description,revision,status,uom,owner,child_part,quantity,unit,child_rev
+PART,CFG-10001,Rack-mount server chassis,A,Released,EA,A. Rivera,,,,
+PART,CFG-20001,Cooling loop controller,A,Released,EA,S. Tanaka,,,,
+PART,CFG-10900,Legacy fan tray assembly,C,Obsolete,EA,A. Rivera,,,,
+PART,CFG-17000,Cable management arm assembly,A,Draft,EA,J. Okafor,,,,
+PART,CFG-11000,Chassis frame assembly,B,Released,EA,A. Rivera,,,,
+PART,CFG-12000,Power supply bay assembly,A,Released,EA,M. Lindqvist,,,,
+PART,CFG-13000,Fan tray assembly,A,Released,EA,J. Okafor,,,,
+PART,CFG-14000,Drive cage assembly,A,Released,EA,M. Lindqvist,,,,
+PART,CFG-15000,Front panel assembly,A,Released,EA,J. Okafor,,,,
+PART,CFG-21000,Controller board assembly,B,Released,EA,S. Tanaka,,,,
+PART,CFG-22000,Pump driver assembly,A,Released,EA,S. Tanaka,,,,
+PART,CFG-23000,Sensor harness assembly,A,Released,EA,S. Tanaka,,,,
+PART,CFG-24000,Enclosure assembly,A,Released,EA,A. Rivera,,,,
+PART,CFG-11100,Chassis base plate,A,Released,EA,A. Rivera,,,,
+PART,CFG-11200,Chassis side panel,A,Released,EA,A. Rivera,,,,
+PART,CFG-11300,Chassis top cover,B,Released,EA,A. Rivera,,,,
+PART,CFG-11400,Rail mount bracket,A,Released,EA,A. Rivera,,,,
+PART,CFG-12100,Power supply bay tray,A,Released,EA,M. Lindqvist,,,,
+PART,CFG-12200,Power connector block,A,Released,EA,M. Lindqvist,,,,
+PART,CFG-12300,Bus bar,A,Released,EA,M. Lindqvist,,,,
+PART,CFG-12400,Bay retention clip,A,Released,EA,M. Lindqvist,,,,
+PART,CFG-13100,"Fan, 80 mm",A,Released,EA,J. Okafor,,,,
+PART,CFG-13200,Fan tray frame,A,Released,EA,J. Okafor,,,,
+PART,CFG-13300,Fan connector harness,A,Released,EA,J. Okafor,,,,
+PART,CFG-13400,Vibration damper,A,Released,EA,J. Okafor,,,,
+PART,CFG-14100,Drive cage frame,A,Released,EA,M. Lindqvist,,,,
+PART,CFG-14200,Drive backplane,A,Released,EA,M. Lindqvist,,,,
+PART,CFG-14300,Drive tray latch (redesign),A,Draft,EA,M. Lindqvist,,,,
+PART,CFG-14400,Drive tray guide,A,Released,EA,M. Lindqvist,,,,
+PART,CFG-15100,Front bezel,A,Released,EA,J. Okafor,,,,
+PART,CFG-15200,Power button switch,A,Released,EA,J. Okafor,,,,
+PART,CFG-15300,Status LED light pipe,A,Released,EA,J. Okafor,,,,
+PART,CFG-15400,Dust filter,A,Released,EA,J. Okafor,,,,
+PART,CFG-21100,Controller PCB,B,Released,EA,S. Tanaka,,,,
+PART,CFG-21200,Microcontroller module,A,Released,EA,S. Tanaka,,,,
+PART,CFG-21300,Connector header,A,Released,EA,S. Tanaka,,,,
+PART,CFG-21400,Board standoff,A,Released,EA,S. Tanaka,,,,
+PART,CFG-22100,Pump driver PCB,A,Released,EA,S. Tanaka,,,,
+PART,CFG-22200,Motor driver module,A,Released,EA,S. Tanaka,,,,
+PART,CFG-22300,Heat sink,A,Released,EA,S. Tanaka,,,,
+PART,CFG-22400,Thermal pad,A,Released,EA,S. Tanaka,,,,
+PART,CFG-23100,Temperature sensor probe,A,Released,EA,S. Tanaka,,,,
+PART,CFG-23200,Flow sensor,A,Released,EA,S. Tanaka,,,,
+PART,CFG-23300,Sensor cable,A,Released,M,S. Tanaka,,,,
+PART,CFG-23400,Harness connector,A,Released,EA,S. Tanaka,,,,
+PART,CFG-24100,Enclosure base,A,Released,EA,A. Rivera,,,,
+PART,CFG-24200,Enclosure lid,A,Released,EA,A. Rivera,,,,
+PART,CFG-24300,Mounting foot,A,Released,EA,A. Rivera,,,,
+PART,CFG-24400,Enclosure gasket,A,Released,EA,A. Rivera,,,,
+PART,CFG-30001,Screw M3x6,A,Released,EA,J. Okafor,,,,
+PART,CFG-30002,Screw M4x8,A,Released,EA,J. Okafor,,,,
+PART,CFG-30003,Washer M4,A,Released,EA,J. Okafor,,,,
+PART,CFG-30004,Cable tie,A,Released,EA,J. Okafor,,,,
+PART,CFG-30005,Grounding wire,A,Released,M,J. Okafor,,,,
+PART,CFG-30006,"Label, serial number",A,Released,EA,J. Okafor,,,,
+PART,CFG-10910,"Fan, 60 mm (legacy)",A,Obsolete,EA,A. Rivera,,,,
+PART,CFG-10920,Legacy fan bracket,A,Obsolete,EA,A. Rivera,,,,
+PART,CFG-17100,Cable arm link,A,Draft,EA,J. Okafor,,,,
+PART,CFG-17200,Cable arm pivot pin,A,Draft,EA,J. Okafor,,,,
+PART,CFG-17300,Cable arm tray,A,Draft,EA,J. Okafor,,,,
+BOM,CFG-10001,,,,,,CFG-11000,1,EA,B
+BOM,CFG-10001,,,,,,CFG-12000,2,EA,A
+BOM,CFG-10001,,,,,,CFG-13000,3,EA,A
+BOM,CFG-10001,,,,,,CFG-14000,1,EA,A
+BOM,CFG-10001,,,,,,CFG-15000,1,EA,A
+BOM,CFG-10001,,,,,,CFG-30004,10,EA,A
+BOM,CFG-10001,,,,,,CFG-30006,1,EA,A
+BOM,CFG-11000,,,,,,CFG-11100,1,EA,A
+BOM,CFG-11000,,,,,,CFG-11200,2,EA,A
+BOM,CFG-11000,,,,,,CFG-11300,1,EA,B
+BOM,CFG-11000,,,,,,CFG-11400,2,EA,A
+BOM,CFG-11000,,,,,,CFG-30002,16,EA,A
+BOM,CFG-11000,,,,,,CFG-30003,16,EA,A
+BOM,CFG-12000,,,,,,CFG-12100,1,EA,A
+BOM,CFG-12000,,,,,,CFG-12200,1,EA,A
+BOM,CFG-12000,,,,,,CFG-12300,2,EA,A
+BOM,CFG-12000,,,,,,CFG-12400,4,EA,A
+BOM,CFG-12000,,,,,,CFG-30001,8,EA,A
+BOM,CFG-12000,,,,,,CFG-30005,0.5,M,A
+BOM,CFG-13000,,,,,,CFG-13100,2,EA,A
+BOM,CFG-13000,,,,,,CFG-13200,1,EA,A
+BOM,CFG-13000,,,,,,CFG-13300,2,EA,A
+BOM,CFG-13000,,,,,,CFG-13400,4,EA,A
+BOM,CFG-13000,,,,,,CFG-30001,6,EA,A
+BOM,CFG-13000,,,,,,CFG-13500,1,EA,
+BOM,CFG-14000,,,,,,CFG-14100,1,EA,A
+BOM,CFG-14000,,,,,,CFG-14200,1,EA,A
+BOM,CFG-14000,,,,,,CFG-14300,8,EA,A
+BOM,CFG-14000,,,,,,CFG-14400,8,EA,A
+BOM,CFG-14000,,,,,,CFG-30001,12,EA,A
+BOM,CFG-14000,,,,,,CFG-30002,4,EA,A
+BOM,CFG-15000,,,,,,CFG-15100,1,EA,A
+BOM,CFG-15000,,,,,,CFG-15200,1,EA,A
+BOM,CFG-15000,,,,,,CFG-15300,4,EA,A
+BOM,CFG-15000,,,,,,CFG-15400,1,EA,A
+BOM,CFG-15000,,,,,,CFG-30001,4,EA,A
+BOM,CFG-20001,,,,,,CFG-21000,1,EA,B
+BOM,CFG-20001,,,,,,CFG-22000,1,EA,A
+BOM,CFG-20001,,,,,,CFG-23000,1,EA,A
+BOM,CFG-20001,,,,,,CFG-24000,1,EA,A
+BOM,CFG-20001,,,,,,CFG-30006,1,EA,A
+BOM,CFG-21000,,,,,,CFG-21100,1,EA,B
+BOM,CFG-21000,,,,,,CFG-21200,1,EA,A
+BOM,CFG-21000,,,,,,CFG-21300,6,EA,A
+BOM,CFG-21000,,,,,,CFG-21400,4,EA,A
+BOM,CFG-21000,,,,,,CFG-30001,4,EA,A
+BOM,CFG-22000,,,,,,CFG-22100,1,EA,A
+BOM,CFG-22000,,,,,,CFG-22200,1,EA,A
+BOM,CFG-22000,,,,,,CFG-22300,1,EA,A
+BOM,CFG-22000,,,,,,CFG-22400,1,EA,A
+BOM,CFG-22000,,,,,,CFG-30002,4,EA,A
+BOM,CFG-22000,,,,,,CFG-30003,4,EA,A
+BOM,CFG-23000,,,,,,CFG-23100,2,EA,A
+BOM,CFG-23000,,,,,,CFG-23200,1,EA,A
+BOM,CFG-23000,,,,,,CFG-23300,1.5,M,A
+BOM,CFG-23000,,,,,,CFG-23400,3,EA,A
+BOM,CFG-23000,,,,,,CFG-30004,6,EA,A
+BOM,CFG-23000,,,,,,CFG-30005,0.3,M,A
+BOM,CFG-24000,,,,,,CFG-24100,1,EA,A
+BOM,CFG-24000,,,,,,CFG-24200,1,EA,A
+BOM,CFG-24000,,,,,,CFG-24300,4,EA,A
+BOM,CFG-24000,,,,,,CFG-24400,1,EA,A
+BOM,CFG-24000,,,,,,CFG-30002,8,EA,A
+BOM,CFG-24000,,,,,,CFG-30003,8,EA,A
+BOM,CFG-10900,,,,,,CFG-10910,4,EA,A
+BOM,CFG-10900,,,,,,CFG-10920,1,EA,A
+BOM,CFG-17000,,,,,,CFG-17100,6,EA,A
+BOM,CFG-17000,,,,,,CFG-17200,6,EA,A
+BOM,CFG-17000,,,,,,CFG-17300,1,EA,A
